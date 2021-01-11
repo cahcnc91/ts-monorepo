@@ -14,7 +14,8 @@
     "build": "scripty",
     "test": "scripty",
     "lint": "scripty",
-    "clean": "rimraf dist *.tsbuildinfo"
+    "clean": "rimraf dist *.tsbuildinfo",
+    "api-report": "scripty"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",

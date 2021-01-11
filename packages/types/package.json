@@ -1,5 +1,5 @@
 {
-  "name": "@mskcc/types",
+  "name": "@shlack/types",
   "version": "0.2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,8 @@
     "build": "scripty",
     "test": "scripty",
     "lint": "scripty",
-    "clean": "rimraf dist *.tsbuildinfo"
+    "clean": "rimraf dist *.tsbuildinfo",
+    "api-report": "scripty"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",
